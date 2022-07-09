@@ -5,6 +5,8 @@
 
 ## Week 1
 ### P1: Theoretical Background
+<hr>
+
 #### Q1
 **Why SNARK requires a trusted setup while STARK doesn't.**
 
@@ -17,6 +19,8 @@ SNARKs use elliptic curves to back its cryptographic security which needs a set 
 - STARKs have larger proof size than SNARK proof which results in longer verification time, in turn resulting in more gas fees.
 
 ### P2: Getting Started with Circom and SnarkJS
+<hr>
+
 #### Q2
 **1 - What does the circuit in HelloWorld.circom do?**
 
@@ -56,6 +60,8 @@ From the results of the unit test, it can be observed that PLONK is slower in ve
 ![](./public/images/tests.png)
 
 ### P3: Reading and Designing Circuits with Circom
+<hr>
+
 #### Q1: circomlib
 **1 - `contracts/circuits/LessThan10.circom` implements a circuit that verifies an input is less than 10 using the LessThan template. Study how the template is used in this circuit. What does the 32 in Line 9 stand for?**
 
